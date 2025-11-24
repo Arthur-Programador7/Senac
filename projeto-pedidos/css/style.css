@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #f3f3f3;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#form-section,
+#resultado {
+    max-width: 400px;
+    margin: auto;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.hidden {
+    display: none;
+}
+
+#erro {
+    color: red;
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 8px;
+    width: 100%;
+}
+
+footer {
+    margin-top: 255px;
+    background-color: black;
+    padding: 15px;
+    color: aliceblue;
+    text-align: center;
+}

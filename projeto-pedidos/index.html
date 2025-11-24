@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monte sua Refeição</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Monte sua Refeição</h1>
+    </header>
+    <main>
+        <section id="form-section">
+            <form id="form">
+                <label>Prato:</label>
+                <select id="prato">
+                    <option value="">Selecione</option>
+                    <option value="25">Prato do dia</option>
+                    <option value="30">Strogonoff de frango</option>
+                    <option value="22.5">Parmegina de frango</option>
+                </select>
+                <label>Bebida:</label>
+                <select id="bebida">
+                    <option value="">Selecione</option>
+                    <option value="6">Refri</option>
+                    <option value="8.5">Energético</option>
+                    <option value="3.5">Água Mineral</option>
+                </select>
+                <p>Adicionais:</p>
+                <label><input type="checkbox" value="7" class="adicional"> Sorvete</label>
+                <label><input type="checkbox" value="2.5" class="adicional"> Maionese Verde</label>
+                <label><input type="checkbox" value="3" class="adicional"> Embalagem Personalizada</label>
+                <div id="erro" class="hidden"></div>
+                <button type="button" id="calcular">Calcular Total</button>
+            </form>
+        </section>
+        <section id="resultado" class="hidden"></section>
+    </main>
+    <footer>
+        <p>Arthur Vieira - 2025</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
